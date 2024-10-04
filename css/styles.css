@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff1f2;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Quicksand', Quicksand; /* Definindo uma fonte padrão */
+}
+
+.logo-container {
+    animation: pulse 1.2s infinite;
+}
+
+.logo {
+    max-height: 550px;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1.09); }
+    50% { transform: scale(1.085); }
+    100% { transform: scale(1.07); }S
+}
